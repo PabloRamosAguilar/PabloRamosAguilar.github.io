@@ -3,7 +3,6 @@
     <channel>
         <title>Gatos</title>
         <webMaster>pabloramosaguilar11@hotmail.com</webMaster>
-        <managingEditor>pabloramosaguilar11@hotmail.com</managingEditor>
         <link>https://pabloramosaguilar.github.io</link>
         <description>Entérate de todo sobre gatos.</description>
         <language>es</language>
@@ -11,9 +10,9 @@
         <image>
           <title>Gatos</title>
           <link>https://pabloramosaguilar.github.io</link>
-          <url>https://pabloramosaguilar.github.io/persa.jpg</url>
-          <width>100</width>
-          <height>100</height>
+          <url>https://PabloRamosAguilar.github.io/Gato Noruego-Done/gatonoruego.jpg</url>
+          <width>300</width>
+          <height>300</height>
         </image>
         <item>
           <title>¡Nueva entrada sobre el Gato Egipcio!</title>
