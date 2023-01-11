@@ -17,7 +17,6 @@
     height: auto;
     max-height: 500px;
 }
-
 #user{
     visibility: hidden;
 }
@@ -49,21 +48,7 @@ div [class*="bg-light text-center"] {
     min-height: 200px;
 }
 
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-    --bs-gutter-x: 0;
-    --bs-gutter-y: 0;
-    width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
-    margin-right: auto;
-    margin-left: auto;
-}
+
 #habitaciones{
     background-color: rgba(94, 90, 90, 0.116);
 }
@@ -72,8 +57,19 @@ div [class*="bg-light text-center"] {
     background-color: rgb(84, 108, 218);
 }
 
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --mdb-gutter-x: 0;
+    --mdb-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--mdb-gutter-x)*0.5);
+    padding-left: calc(var(--mdb-gutter-x)*0.5);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
 #thehero {
-width: 100vw;
+width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -89,7 +85,7 @@ width: 100vw;
 
 .the-inner {
     background-color: rgba(256,256,256,0.8);
-    width: 40vw;
+    width: 100vw;
     padding: 1rem;
 }
 
@@ -113,9 +109,4 @@ font-size: 1.1rem;
 
 .the-inner a {
 color: #000000;
-}
-
-.the-inner .points p:before{
-  content: url(https://chrislanejones.com/wp-content/uploads/2018/10/littlesquarebullet.png);
-  padding: 0 1rem 0 0;
 }
